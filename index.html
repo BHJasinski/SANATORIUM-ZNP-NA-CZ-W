@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e5a46">
+  <title>Sanatorium ZNP Nałęczów</title>
+  <meta name="description" content="Sanatorium Uzdrowiskowe ZNP Nałęczów. Turnusy, rehabilitacja, zabiegi i kontakt.">
+  <link rel="preconnect" href="https://znp.edu.pl">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <div class="utility-bar">
+    <div class="utility-inner">
+      <div class="utility-contact">
+        <a href="tel:+48815014705" aria-label="Zadzwoń do Sanatorium">☎ 81 501 47 05</a>
+        <a href="mailto:sekretariat@znpnaleczow.pl">✉ sekretariat@znpnaleczow.pl</a>
+      </div>
+      <div class="access-tools" aria-label="Ustawienia dostępności">
+        <button id="fontDown" type="button" aria-label="Zmniejsz tekst">A−</button>
+        <button id="fontUp" type="button" aria-label="Powiększ tekst">A+</button>
+        <button id="contrast" type="button" aria-pressed="false">◐ Kontrast</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Sanatorium ZNP Nałęczów">
+        <span class="brand-badge">ZNP</span>
+        <span class="brand-copy">
+          <strong>Sanatorium Uzdrowiskowe</strong>
+          <small>Nałęczów</small>
+        </span>
+      </a>
+
+      <button id="menuButton" class="menu-button" type="button"
+              aria-controls="mainNav" aria-expanded="false">
+        <span aria-hidden="true">☰</span> Menu
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Menu główne">
+        <a href="#pobyty">Pobyty</a>
+        <a href="https://www.znpnaleczow.pl/cennik">Cennik</a>
+        <a href="https://www.znpnaleczow.pl/zabiegi">Zabiegi</a>
+        <a href="#o-nas">O nas</a>
+        <a href="#kontakt">Kontakt</a>
+        <a class="nav-call" href="tel:+48815014705">Zadzwoń</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-media" role="img" aria-label="Budynek Sanatorium ZNP Nałęczów"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">Sanatorium Uzdrowiskowe ZNP • Nałęczów</p>
+        <h1>Spokojny pobyt.<br><span>Profesjonalna rehabilitacja.</span></h1>
+        <p class="hero-lead">
+          Leczenie uzdrowiskowe, rehabilitacja i wypoczynek w zielonej,
+          spokojnej części Nałęczowa.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="tel:+48815014705">☎ Zadzwoń: 81 501 47 05</a>
+          <a class="btn glass" href="#pobyty">Zobacz rodzaje pobytów</a>
+        </div>
+        <div class="hero-points">
+          <span>✓ ponad 60 lat tradycji</span>
+          <span>✓ ponad 40 rodzajów zabiegów</span>
+          <span>✓ obiekt dostępny dla osób z niepełnosprawnościami</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-actions" aria-label="Najważniejsze informacje">
+      <div class="container quick-grid">
+        <a href="https://www.znpnaleczow.pl/cennik" class="quick-item">
+          <span class="quick-icon">zł</span>
+          <span><strong>Cennik</strong><small>Sprawdź ceny pobytów</small></span>
+          <b>›</b>
+        </a>
+        <a href="https://www.znpnaleczow.pl/zabiegi" class="quick-item">
+          <span class="quick-icon">✚</span>
+          <span><strong>Zabiegi</strong><small>Poznaj ofertę leczenia</small></span>
+          <b>›</b>
+        </a>
+        <a href="#kontakt" class="quick-item">
+          <span class="quick-icon">☎</span>
+          <span><strong>Kontakt</strong><small>Telefon, e-mail i adres</small></span>
+          <b>›</b>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="pobyty">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Wybierz pobyt</p>
+            <h2>Najważniejsze opcje w jednym miejscu</h2>
+          </div>
+          <p class="section-intro">
+            Bez szukania po wielu podstronach. Wybierz sposób finansowania
+            lub rodzaj skierowania.
+          </p>
+        </div>
+
+        <div class="stay-grid">
+          <a class="stay-card featured" href="https://www.znpnaleczow.pl/terminy-turnusow/pelnoplatne">
+            <div class="stay-top">
+              <span class="pill">Najprościej</span>
+              <span class="stay-icon">🛏</span>
+            </div>
+            <h3>Pobyt pełnopłatny</h3>
+            <p>Samodzielnie wybierasz termin i rodzaj pobytu.</p>
+            <span class="card-link">Sprawdź pobyty <b>→</b></span>
+          </a>
+
+          <a class="stay-card" href="https://www.znpnaleczow.pl/terminy-turnusow/z-dofinansowaniem-pfron">
+            <span class="stay-icon">♿</span>
+            <h3>Dofinansowanie PFRON</h3>
+            <p>Informacje dla osób korzystających z dofinansowania.</p>
+            <span class="card-link">Dowiedz się więcej <b>→</b></span>
+          </a>
+
+          <a class="stay-card" href="https://www.znpnaleczow.pl/terminy-turnusow/ze-skierowania-nfz">
+            <span class="stay-icon">NFZ</span>
+            <h3>Skierowanie NFZ</h3>
+            <p>Leczenie uzdrowiskowe na podstawie skierowania.</p>
+            <span class="card-link">Dowiedz się więcej <b>→</b></span>
+          </a>
+
+          <a class="stay-card" href="https://www.znpnaleczow.pl/terminy-turnusow/ze-skierowania-zus">
+            <span class="stay-icon">ZUS</span>
+            <h3>Skierowanie ZUS</h3>
+            <p>Rehabilitacja lecznicza realizowana ze skierowania ZUS.</p>
+            <span class="card-link">Dowiedz się więcej <b>→</b></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="o-nas">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">Dlaczego Nałęczów?</p>
+          <h2>Rehabilitacja w otoczeniu zieleni</h2>
+          <p class="lead">
+            Sanatorium znajduje się w spokojnej części Nałęczowa, na terenie
+            bogato zadrzewionym, zajmującym ponad 2 hektary.
+          </p>
+          <p>
+            Na miejscu działa własna baza zabiegowa. Goście mogą korzystać
+            z opieki lekarzy, pielęgniarek i fizjoterapeutów, a także z parku,
+            tężni solankowej i przestrzeni do spokojnego wypoczynku.
+          </p>
+          <a class="text-button" href="https://www.znpnaleczow.pl/o-nas">Poznaj Sanatorium →</a>
+        </div>
+
+        <div class="facts">
+          <article class="fact">
+            <strong>60+</strong>
+            <span>lat tradycji</span>
+          </article>
+          <article class="fact">
+            <strong>40+</strong>
+            <span>rodzajów zabiegów</span>
+          </article>
+          <article class="fact">
+            <strong>2 ha</strong>
+            <span>zielonego terenu</span>
+          </article>
+          <article class="fact">
+            <strong>1–4</strong>
+            <span>osób w pokojach i apartamentach</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section treatments">
+      <div class="container treatment-grid">
+        <div>
+          <p class="eyebrow">Zabiegi i rehabilitacja</p>
+          <h2>Wszystko na miejscu</h2>
+          <p class="lead">
+            Oferta obejmuje zabiegi z zakresu balneologii i fizjoterapii,
+            dobierane odpowiednio do potrzeb kuracjusza.
+          </p>
+          <div class="treatment-tags" aria-label="Wybrane zabiegi">
+            <span>Masaże</span>
+            <span>Hydroterapia</span>
+            <span>Fizykoterapia</span>
+            <span>Kinezyterapia</span>
+            <span>Inhalacje</span>
+            <span>Krioterapia</span>
+            <span>Nordic walking</span>
+          </div>
+          <a class="btn dark" href="https://www.znpnaleczow.pl/zabiegi">Zobacz wszystkie zabiegi</a>
+        </div>
+
+        <aside class="comfort-card" aria-label="Udogodnienia">
+          <p class="eyebrow">Komfort pobytu</p>
+          <h3>Najważniejsze udogodnienia</h3>
+          <ul>
+            <li><span>✓</span> pokoje z łazienkami</li>
+            <li><span>✓</span> podjazd i windy</li>
+            <li><span>✓</span> własny park i alejki spacerowe</li>
+            <li><span>✓</span> tężnia solankowa</li>
+            <li><span>✓</span> kawiarnia i biblioteka</li>
+            <li><span>✓</span> Wi-Fi w częściach wspólnych</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-copy">
+            <p class="eyebrow light">Masz pytania?</p>
+            <h2>Zadzwoń. Pomożemy wybrać właściwy pobyt.</h2>
+            <p>Najwygodniej skontaktować się telefonicznie z recepcją.</p>
+            <a class="big-phone" href="tel:+48815014705">☎ 81 501 47 05</a>
+          </div>
+
+          <div class="contact-details">
+            <div>
+              <small>Adres</small>
+              <strong>ul. Głowackiego 7<br>24-140 Nałęczów</strong>
+            </div>
+            <div>
+              <small>E-mail</small>
+              <a href="mailto:sekretariat@znpnaleczow.pl">sekretariat@znpnaleczow.pl</a>
+            </div>
+            <div>
+              <small>Strona</small>
+              <a href="https://www.znpnaleczow.pl/">www.znpnaleczow.pl</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Najczęstsze pytania</p>
+            <h2>Krótko i konkretnie</h2>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Czy obiekt jest dostępny dla osób z niepełnosprawnościami?</summary>
+            <p>Tak. Sanatorium informuje o podjeździe, windach i dostępnych łazienkach.</p>
+          </details>
+          <details>
+            <summary>Jakie są rodzaje pokoi?</summary>
+            <p>Dostępne są pokoje 1-, 2- i 3-osobowe oraz apartamenty dla 2–4 osób.</p>
+          </details>
+          <details>
+            <summary>Jak sprawdzić aktualne ceny?</summary>
+            <p>Aktualny cennik najlepiej sprawdzić na podstronie „Cennik” lub telefonicznie w recepcji.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-badge">ZNP</span>
+          <span class="brand-copy">
+            <strong>Sanatorium Uzdrowiskowe</strong>
+            <small>Nałęczów</small>
+          </span>
+        </div>
+        <p>Spokojny wypoczynek, leczenie i rehabilitacja w Nałęczowie.</p>
+      </div>
+      <div>
+        <strong>Na skróty</strong>
+        <a href="#pobyty">Pobyty</a>
+        <a href="https://www.znpnaleczow.pl/cennik">Cennik</a>
+        <a href="https://www.znpnaleczow.pl/zabiegi">Zabiegi</a>
+      </div>
+      <div>
+        <strong>Kontakt</strong>
+        <a href="tel:+48815014705">81 501 47 05</a>
+        <a href="mailto:sekretariat@znpnaleczow.pl">sekretariat@znpnaleczow.pl</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      © Sanatorium Uzdrowiskowe ZNP Nałęczów
+    </div>
+  </footer>
+
+  <nav class="mobile-dock" aria-label="Szybkie działania">
+    <a href="tel:+48815014705"><span>☎</span><small>Zadzwoń</small></a>
+    <a href="https://www.znpnaleczow.pl/cennik"><span>zł</span><small>Cennik</small></a>
+    <a href="#pobyty"><span>▦</span><small>Pobyty</small></a>
+    <a href="#kontakt"><span>✉</span><small>Kontakt</small></a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
